@@ -7,3 +7,4 @@ jmespath
 ansible-core
 ansible-compat<4  # https://github.com/ansible-community/molecule/issues/3903
 Cython<3  # https://github.com/yaml/pyyaml/issues/601
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
